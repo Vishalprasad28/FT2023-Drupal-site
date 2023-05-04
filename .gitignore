@@ -18,3 +18,7 @@ private/
 /web/sites/*/translations
 /web/sites/*/tmp
 /web/sites/*/cache
+
+#Adding the contrib folders
+web/modules/contrib/
+web/themes/contrib/

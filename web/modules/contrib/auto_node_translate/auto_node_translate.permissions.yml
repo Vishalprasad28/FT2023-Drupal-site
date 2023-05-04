@@ -1,7 +1,0 @@
-configure auto node translate:
-  title: 'Auto Node Translate Configuration'
-  description: 'Allow users to configure Auto Node Translate'
-  restrict access: TRUE
-
-permission_callbacks:
-  - \Drupal\auto_node_translate\AutoNodeTranslatePermissions::contentPermissions

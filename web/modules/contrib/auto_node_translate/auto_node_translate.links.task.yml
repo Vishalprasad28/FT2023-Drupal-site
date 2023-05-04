@@ -1,3 +1,0 @@
-auto_node_translate.local_tasks:
-  deriver: 'Drupal\auto_node_translate\Plugin\Derivative\AutoNodeTranslateLocalTasks'
-  weight: 101
