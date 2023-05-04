@@ -1,0 +1,47 @@
+name: Vishal
+type: theme
+description: 'A Demo Theme made for practice purpose and its under maintainance meanwhile you can give it a try too'
+core_version_requirement: ^9 || ^10
+screenshot: screenshot.jpg
+libraries:
+  - demo/global-styling
+base theme: bootstrap
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+package: Core
+core: 10.x
+php: 8.1.2
+
+hidden: FALSE
+engine: twig
+logo: images/logo.png
+
+regions_hidden:
+  - sidebar_last
+
+features:
+  - comment_user_verification
+  - comment_user_picture
+  - favicon
+  - logo
+  - node_user_picture
+
+
+
+
+
+
+
+

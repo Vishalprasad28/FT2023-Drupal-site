@@ -1,0 +1,6 @@
+name: Vishal's Module
+description: My first Custom Module
+core: 10.x
+core_version_requirement: ^9 || ^10
+type: module
+package: Custom Modules

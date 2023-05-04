@@ -1,0 +1,25 @@
+.main-container .row {
+    width: 50%;
+    padding: 3rem 2rem;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px var(--blue-shade);
+}
+.main-container .row input, .main-container #edit-contact, .main-container select  {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    border: 1px solid var(--blue-shade);
+}
+.main-container .row p {
+	  color: var(--blue-shade);
+}
+#edit-submit {
+	 background-color: var(--blue-shade);
+	 color: black;
+}
+.main-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+# [Module's name] . function of the controller you want to call
+vishal_module.basicFunction:
+  # Path alias for the function
+  path: '/vishal-module'
+  defaults:       
+    #controller: \Drupal\[Module Name]\Controller\[Controller class name]::function of the cpontroller you wish to call
+    # This statement calls the controller that you have made
+    _controller: '\Drupal\vishal_module\Controller\VishalController::basicFunction'
+    # This statement sets the title for the page
+    _title: 'Vishal Module'
+  requirements:
+    _permission: 'access content'
+    
+vishal_module.anotherOne:
+  path: '/nextpage'
+  defaults:       
+    #controller: \Drupal\[Module Name]\Controller\[Controller class name]::function of the cpontroller you wish to call
+    # This statement calls the controller that you have made
+    _controller: '\Drupal\vishal_module\Controller\VishalController::anotherOne'
+    # This statement sets the title for the page
+    _title: 'Vishal Module 2'
+  requirements:
+    _permission: 'access content'

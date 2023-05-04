@@ -1,0 +1,5 @@
+# Ignoring the Vendor Directory 
+vendor/
+
+# ignoring the settings.php file that contains the user'database credentials
+web/sites/default/settings.php
