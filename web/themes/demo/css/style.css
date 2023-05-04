@@ -1,0 +1,121 @@
+/* All styling for the custom theme goes here */
+/* *{
+    border: 1px solid red;
+} */
+:root {
+    --blue-shade: rgb(0, 242, 255);
+}
+*::placeholder{
+    color: white;
+}
+a {
+    color: var(--blue-shade);
+}
+.logo {
+    filter: invert();
+}
+#navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    width: 100%;
+    border: none;
+    background: none;
+}
+.menu--main li a {
+    background-color: var(--blue-shade);
+    color: black !important;
+    font-weight: 600;
+    margin: 0 0.5rem;
+    border-radius: 50vh;
+    transition: all 0.5s;
+}
+.menu--main li a:hover{
+    background-color:  rgb(195, 195, 195) !important;
+    color:rgba(60, 59, 59, 0.991) !important;
+}
+.navbar-brand {
+    font-size: 3rem;
+    color: var(--blue-shade) !important;
+}
+#edit-keys {
+    padding: 1rem;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(60, 59, 59, 0.823);
+}
+#edit-keys::placeholder{
+    color: white;
+}
+.button {
+    background-color: var(--blue-shade);
+}
+.col-sm-3 {
+    margin-top: 1rem;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.24);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.path-gallery .col-sm-3 a {
+    color: var(--blue-shade);
+}
+.path-gallery .views-view-grid a {
+    color: var(--blue-shade);
+}
+.path-gallery .views-col, .path-gallery .views-field-field-topics-covered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.path-gallery .field--label, .path-gallery .field--items {
+    text-align: center;
+}
+table tr:nth-child(2n) {
+    background-color: var(--blue-shade);
+}
+/* .path-frontpage, .path-user  */
+body {
+    background-image: url('../images/wallpaperflare.com_wallpaper (3).jpg');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    min-height: 100vh;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.dialog-off-canvas-main-canvas {
+    height: 100%;
+}
+.main-container label {
+    color: white;
+}
+h1, h2 {
+    color: white;
+    border: none !important;
+}
+.field--label, time{
+    color: white;
+}
+article {
+    margin: 1rem;
+    padding: 0.5rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s;
+}
+article:hover {
+    scale: 105%;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.563);
+
+}
+p {
+    color: white;
+}
+footer a[href='/user'], footer a[href='/user/logout'] {
+    /* border: 1px solid var(--blue-shade); */
+    box-shadow: 0 0 5px var(--blue-shade);
+    border-radius: 50vh;
+    margin: 1rem;
+    transition: all 0.5s;
+}
+

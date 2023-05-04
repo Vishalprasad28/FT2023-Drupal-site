@@ -1,0 +1,11 @@
+<?php
+function vishal_module_theme($existing, $theme, $type, $path) {
+    return array (
+        'anotherOne_page' => array (
+            'variables' => array (
+                'items' => [],
+                'title' => 'This is custom template'
+            )
+        )
+            );
+}
